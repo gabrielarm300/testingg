@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ava Chen — Software Engineer</title>
+<meta name="description" content="Ava Chen — software engineer portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Patrick+Hand&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- floating page stickers (decorative, aria-hidden) -->
+<div class="floaters" aria-hidden="true">
+  <span class="floater star s1">★</span>
+  <span class="floater heart h1">♥</span>
+  <span class="floater star s2">✦</span>
+  <span class="floater butterfly b1">🦋</span>
+  <span class="floater star s3">★</span>
+  <span class="floater heart h2">♥</span>
+</div>
+
+<!-- ============ NAV ============ -->
+<nav class="tape-nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">a.c.</a>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#timeline">journey</a>
+      <a href="#contact">say hi</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header id="top" class="hero">
+  <div class="hero-inner">
+    <p class="kicker">📌 welcome to my little corner of the internet</p>
+    <h1 class="cutout-title" aria-label="Ava Chen">
+      <span class="cutout tape-blue">A</span><span class="cutout tape-pink">V</span><span class="cutout tape-green">A</span>
+      <span class="cutout-gap"></span>
+      <span class="cutout tape-yellow">C</span><span class="cutout tape-blue">H</span><span class="cutout tape-pink">E</span><span class="cutout tape-green">N</span>
+    </h1>
+    <p class="hero-sub">software engineer &amp; certified chaotic good problem-solver</p>
+    <div class="sticky-note note-rotate-1">
+      <p>currently: building things that (mostly) don't break ✨<br>based in San Francisco, open to new roles!</p>
+    </div>
+    <a href="#projects" class="btn-stamp">see my work ↓</a>
+  </div>
+  <div class="washi-strip"></div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section">
+  <div class="section-inner about-grid">
+    <div class="polaroid pol-rotate-1">
+      <div class="polaroid-photo" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="38" r="18" fill="#3A2E4D"/>
+          <path d="M20 95 Q20 60 50 60 Q80 60 80 95 Z" fill="#3A2E4D"/>
+        </svg>
+      </div>
+      <p class="polaroid-caption">that's me, probably debugging</p>
+    </div>
+    <div class="about-text">
+      <h2 class="handwritten-heading">a little about me</h2>
+      <p>Hi! I'm Ava — a software engineer who loves turning messy problems into clean, working systems (and occasionally into scrapbook-themed websites). I care about writing code that's easy for the next person to read, including future-me at 2am.</p>
+      <p>When I'm not at my keyboard, you'll find me journaling with way too many stickers, hunting for the best matcha in the city, or getting unreasonably invested in a new hobby for exactly three weeks.</p>
+      <div class="tag-strip">
+        <span class="washi-tag">full-stack dev</span>
+        <span class="washi-tag">ex-intern @ startup</span>
+        <span class="washi-tag">CS @ university</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section section-alt">
+  <div class="section-inner">
+    <h2 class="handwritten-heading center">things i'm good at (or at least Stack Overflow thinks so)</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card tilt-a">
+        <span class="skill-sticker">💻</span>
+        <h3>languages</h3>
+        <div class="pill-row">
+          <span class="pill">JavaScript</span>
+          <span class="pill">Python</span>
+          <span class="pill">TypeScript</span>
+          <span class="pill">Java</span>
+          <span class="pill">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card tilt-b">
+        <span class="skill-sticker">🌐</span>
+        <h3>frontend</h3>
+        <div class="pill-row">
+          <span class="pill">React</span>
+          <span class="pill">Next.js</span>
+          <span class="pill">Tailwind</span>
+          <span class="pill">HTML/CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-card tilt-a">
+        <span class="skill-sticker">🗄️</span>
+        <h3>backend &amp; data</h3>
+        <div class="pill-row">
+          <span class="pill">Node.js</span>
+          <span class="pill">Express</span>
+          <span class="pill">PostgreSQL</span>
+          <span class="pill">MongoDB</span>
+        </div>
+      </div>
+
+      <div class="skill-card tilt-b">
+        <span class="skill-sticker">🛠️</span>
+        <h3>tools &amp; other</h3>
+        <div class="pill-row">
+          <span class="pill">Git</span>
+          <span class="pill">Docker</span>
+          <span class="pill">AWS</span>
+          <span class="pill">Figma</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section">
+  <div class="section-inner">
+    <h2 class="handwritten-heading center">projects i'm proud of</h2>
+    <p class="section-sub">a few pages from the project scrapbook — click through for code &amp; demos</p>
+
+    <div class="projects-grid">
+
+      <article class="proj-polaroid rotate-1">
+        <div class="tape-corner"></div>
+        <div class="proj-photo proj-photo-1"></div>
+        <h3>Project One</h3>
+        <p>Short one-line description of what this project does and the problem it solves for its users.</p>
+        <div class="pill-row small">
+          <span class="pill mini">React</span>
+          <span class="pill mini">Node.js</span>
+          <span class="pill mini">PostgreSQL</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="stamp-link">code</a>
+          <a href="#" class="stamp-link">live demo</a>
+        </div>
+      </article>
+
+      <article class="proj-polaroid rotate-2">
+        <div class="tape-corner"></div>
+        <div class="proj-photo proj-photo-2"></div>
+        <h3>Project Two</h3>
+        <p>Short one-line description of what this project does and the problem it solves for its users.</p>
+        <div class="pill-row small">
+          <span class="pill mini">Python</span>
+          <span class="pill mini">Flask</span>
+          <span class="pill mini">Docker</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="stamp-link">code</a>
+          <a href="#" class="stamp-link">live demo</a>
+        </div>
+      </article>
+
+      <article class="proj-polaroid rotate-3">
+        <div class="tape-corner"></div>
+        <div class="proj-photo proj-photo-3"></div>
+        <h3>Project Three</h3>
+        <p>Short one-line description of what this project does and the problem it solves for its users.</p>
+        <div class="pill-row small">
+          <span class="pill mini">TypeScript</span>
+          <span class="pill mini">Next.js</span>
+          <span class="pill mini">AWS</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="stamp-link">code</a>
+          <a href="#" class="stamp-link">live demo</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIMELINE ============ -->
+<section id="timeline" class="section section-alt">
+  <div class="section-inner">
+    <h2 class="handwritten-heading center">my journey so far</h2>
+    <div class="timeline">
+
+      <div class="timeline-item left">
+        <div class="timeline-tape"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">2026</span>
+          <h3>Software Engineer</h3>
+          <p>Company Name — building and shipping features for a product used by thousands of people.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-tape"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">2025</span>
+          <h3>Software Engineering Intern</h3>
+          <p>Startup Name — worked on the core platform team, shipped three features end-to-end.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-tape"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">2022–2026</span>
+          <h3>B.S. Computer Science</h3>
+          <p>University Name — coursework in algorithms, systems, and human-computer interaction.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section postcard-section">
+  <div class="section-inner">
+    <div class="postcard">
+      <div class="postcard-left">
+        <h2 class="handwritten-heading">wish you were here!</h2>
+        <p>Always happy to talk about code, collaborate on something fun, or just say hi. Drop me a line below.</p>
+        <div class="postcard-links">
+          <a href="mailto:ava.chen@example.com" class="stamp-link">✉ email me</a>
+          <a href="#" class="stamp-link">GitHub</a>
+          <a href="#" class="stamp-link">LinkedIn</a>
+        </div>
+      </div>
+      <div class="postcard-right" aria-hidden="true">
+        <div class="stamp">
+          <span>★</span>
+        </div>
+        <div class="postcard-lines">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>made with ♡ and way too many tabs open — <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
